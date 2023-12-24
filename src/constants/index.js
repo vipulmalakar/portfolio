@@ -22,6 +22,7 @@ import {
   threejs,
   gallerydtudiopro,
   akashmalviya,
+  bhagyavakta,
 } from "../assets";
 
 export const navLinks = [
@@ -193,7 +194,8 @@ const projects = [
       },
     ],
     image: gallerydtudiopro,
-    source_code_link: "https://github.com/",
+    // source_code_link: "https://github.com/",
+    url: "https://gallerystudio.in",
   },
   {
     name: "Bhagyavakta",
@@ -213,8 +215,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: bhagyavakta,
+    // source_code_link: "https://github.com/",
+    url: "https://play.google.com/store/apps/details?id=com.bhagyavaktapp",
   },
   {
     name: "Trip Guide",
@@ -236,6 +239,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    // url: "https://",
   },
 ];
 

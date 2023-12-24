@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import link from "./link.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -32,6 +33,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import gallerydtudiopro from "./gallerystudiopro.png";
+import bhagyavakta from './bhagyavakta.webp';
 
 import akashmalviya from "./akashmalviya.jpg";
 
@@ -44,6 +46,7 @@ export {
   mobile,
   web,
   github,
+  link,
   menu,
   close,
   css,
@@ -69,6 +72,7 @@ export {
   jobit,
   tripguide,
   gallerydtudiopro,
+  bhagyavakta,
   akashmalviya,
   resume,
 };
