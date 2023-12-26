@@ -22,6 +22,7 @@ import {
   threejs,
   gallerydtudiopro,
   akashmalviya,
+  prateekmalakar,
   bhagyavakta,
 } from "../assets";
 
@@ -42,20 +43,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full Stack Developer",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "Web Developer",
+    title: "Mobile App Developement",
     icon: backend,
   },
   {
-    title: "Backend Developer",
-    icon: creator,
+    title: "Desktop App Developement",
+    icon: mobile,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Backend Developement",
+    icon: creator,
   },
 ];
 
@@ -119,7 +120,7 @@ const experiences = [
     title: "Full stack Developer Intern",
     company_name: "Poulima Infotech",
     icon: poulimainfotech,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD", // #383E56
     date: "Oct 2022 - March 2023",
     points: [
       "Spearheaded the development of a job searching website, elevating user access to career opportunities and contributing to an enhanced job-seeking experience.",
@@ -132,7 +133,7 @@ const experiences = [
     title: "Full stack Developer",
     company_name: "Poulima Infotech",
     icon: poulimainfotech,
-    iconBg: "#E6DEDD",
+    iconBg: "#E6DEDD", // #383E56
     date: "March 2023 - Present",
     points: [
       "Continuously developed and maintained diverse web applications and mobile apps, showcasing versatility and adaptability.",
@@ -156,17 +157,17 @@ const testimonials = [
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Vipul does.",
     name: "Vijay Patel",
-    designation: "COO",
-    company: "DEF Corp",
+    designation: "CO",
+    company: "Spreadwings Solutions",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "After Vipul optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Prateek Malakar",
+    designation: "CEO",
+    company: "Spacegenics",
+    image: prateekmalakar,
   },
 ];
 
@@ -218,28 +219,6 @@ const projects = [
     image: bhagyavakta,
     // source_code_link: "https://github.com/",
     url: "https://play.google.com/store/apps/details?id=com.bhagyavaktapp",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-    // url: "https://",
   },
 ];
 

@@ -33,9 +33,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import gallerydtudiopro from "./gallerystudiopro.png";
-import bhagyavakta from './bhagyavakta.webp';
+import bhagyavakta from "./bhagyavakta.webp";
 
 import akashmalviya from "./akashmalviya.jpg";
+import prateekmalakar from "./prateekmalakar.jpg";
 
 import resume from './resume.pdf';
 
@@ -74,5 +75,6 @@ export {
   gallerydtudiopro,
   bhagyavakta,
   akashmalviya,
+  prateekmalakar,
   resume,
 };

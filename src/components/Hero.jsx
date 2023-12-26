@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -19,8 +20,7 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Vipul</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            I develop <TypeAnimationWords />
           </p>
         </div>
       </div>
@@ -49,3 +49,19 @@ const Hero = () => {
 };
 
 export default Hero;
+
+const TypeAnimationWords = () => {
+  return (
+    <TypeAnimation
+      sequence={[
+        'Web applications', 1000,
+        'Mobile applications', 1000,
+        'Desktop applications', 1000,
+        ]}
+      wrapper="span"
+      cursor={true}
+      repeat={Infinity}
+      className={`${styles.heroSubText} text-white-100`}
+    />
+  );
+};
