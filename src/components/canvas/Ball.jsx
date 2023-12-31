@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
   Decal,
@@ -37,16 +37,45 @@ const Ball = React.memo((props) => {
   );
 });
 
-const BallCanvas = React.memo(({ icon }) => {
-  return (
-    <Canvas frameloop='demand' dpr={[1, 2]} gl={{ preserveDrawingBuffer: true }}>
-      <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} />
-        <Ball imgUrl={icon} />
-      </Suspense>
+const BallCanvas = React.memo(({ icon, name }) => {
+  const [isMobile, setIsMobile] = useState(false);
 
-      <Preload all />
-    </Canvas>
+  useEffect(() => {
+    // Add a listener for changes to the screen size
+    const mediaQuery = window.matchMedia("(max-width: 500px)");
+
+    // Set the initial value of the `isMobile` state variable
+    setIsMobile(mediaQuery.matches);
+
+    // Define a callback function to handle changes to the media query
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+
+    // Add the callback function as a listener for changes to the media query
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    // Remove the listener when the component is unmounted
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
+  return (
+    <>
+      {
+        isMobile ?
+          <img src={icon} alt={name} className="w-20" />
+        :
+          <Canvas frameloop='demand' dpr={[1, 2]} gl={{ preserveDrawingBuffer: true }}>
+            <Suspense fallback={<CanvasLoader />}>
+              <OrbitControls enableZoom={false} />
+              <Ball imgUrl={icon} />
+            </Suspense>
+
+            <Preload all />
+          </Canvas>
+      }
+    </>
   );
 });
 

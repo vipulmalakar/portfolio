@@ -1,8 +1,10 @@
+import React from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+// import { ComputersCanvas } from "./canvas";
+const ComputersCanvas = React.lazy(() => import("./canvas/Computers"));
 
 const Hero = () => {
   return (

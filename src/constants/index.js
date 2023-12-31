@@ -193,6 +193,10 @@ const projects = [
         name: "aws",
         color: "green-text-gradient",
       },
+      {
+        name: "stripe",
+        color: "text-fuchsia-500",
+      },
     ],
     image: gallerydtudiopro,
     // source_code_link: "https://github.com/",
