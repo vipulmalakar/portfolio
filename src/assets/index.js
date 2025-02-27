@@ -22,18 +22,28 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import redis from "./tech/redis.svg";
+import svelte from "./tech/svelte.png";
+import express from "./tech/express.png";
+import nestjs from "./tech/nestjs.png";
+import nextjs from "./tech/nextjs.png";
+import postman from "./tech/postman.png";
+import mysql from "./tech/mysql.png";
+import postgres from "./tech/postgres.png";
+import materialui from "./tech/materialui.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import poulimainfotech from "./company/poulimainfotech.png";
+import cornerstonesolutions from "./company/cornerstonesolutions.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import gallerydtudiopro from "./gallerystudiopro.png";
 import bhagyavakta from "./bhagyavakta.webp";
+import uamtec from "./uamtec.png";
 
 import akashmalviya from "./akashmalviya.jpg";
 import prateekmalakar from "./prateekmalakar.jpg";
@@ -64,15 +74,25 @@ export {
   typescript,
   threejs,
   redis,
+  svelte,
+  express,
+  nestjs,
+  nextjs,
+  postman,
+  mysql,
+  postgres,
+  materialui,
   meta,
   shopify,
   starbucks,
   tesla,
   poulimainfotech,
+  cornerstonesolutions,
   carrent,
   jobit,
   tripguide,
   gallerydtudiopro,
+  uamtec,
   bhagyavakta,
   akashmalviya,
   prateekmalakar,

@@ -5,22 +5,28 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
+  // html,
+  // css,
   reactjs,
   redux,
-  tailwind,
+  // tailwind,
   nodejs,
   mongodb,
-  git,
+  // git,
   docker,
-  redis,
+  // redis,
+  // svelte,
+  express,
+  // nestjs,
+  nextjs,
+  postman,
+  mysql,
+  postgres,
+  // materialui,
   poulimainfotech,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  cornerstonesolutions,
   gallerydtudiopro,
+  uamtec,
   akashmalviya,
   prateekmalakar,
   bhagyavakta,
@@ -61,14 +67,14 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -85,29 +91,61 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
+  // {
+  //   name: "Svelte",
+  //   icon: svelte,
+  // },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Next JS",
+    icon: nextjs,
   },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: "Material UI",
+  //   icon: materialui,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
+    name: "Express",
+    icon: express,
+  },
+  // {
+  //   name: "Nest JS",
+  //   icon: nestjs,
+  // },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Redis",
-    icon: redis,
+    name: "MySQL",
+    icon: mysql,
   },
   {
-    name: "git",
-    icon: git,
+    name: "Postgres",
+    icon: postgres,
   },
+  // {
+  //   name: "Redis",
+  //   icon: redis,
+  // },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "Postman",
+    icon: postman,
   },
 ];
 
@@ -130,12 +168,25 @@ const experiences = [
     company_name: "Poulima Infotech",
     icon: poulimainfotech,
     iconBg: "#E6DEDD", // #383E56
-    date: "March 2023 - Present",
+    date: "March 2023 - Feb 2024",
     points: [
       "Continuously developed and maintained diverse web applications and mobile apps, showcasing versatility and adaptability.",
       "Successfully integrated payment gateways, including Instamojo and Stripe, ensuring secure and smooth transaction processes.",
       "Leveraged advanced technologies like AWS S3 bucket and EC2 instances for efficient and secure hosting, optimizing application performance.",
       "Demonstrated proactive problem-solving skills, ensuring uninterrupted functionality and a positive user experience.",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    company_name: "Cornerstone Solutions",
+    icon: cornerstonesolutions,
+    iconBg: "#FFF", // #383E56
+    date: "Feb 2024 - Present",
+    points: [
+      "Resolved issues and implemented features for UAMTEC and VitalX, enhancing overall application functionality.",
+      "Optimized queries and enhanced performance for applications, resulting in faster load times and improved user experience.",
+      "Developed advanced functionalities like image navigation and EXE setup creation, adding significant value to the projects.",
+      "Worked with a diverse tech stack including React, Nest.js, Node.js, PostgreSQL, Electron, and Svelte, demonstrating versatility and technical proficiency.",
     ],
   },
 ];
@@ -168,6 +219,36 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "UAMTEC",
+    description:
+      "A comprehensive platform for subsea and underground exploration, offering advanced mapping and monitoring solutions using cutting-edge technologies like vehicles, sensors, cameras, and machine learning.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nest",
+        color: "text-yellow-500",
+      },
+      {
+        name: "postgres",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "svelte",
+        color: "green-text-gradient",
+      },
+      {
+        name: "electron",
+        color: "text-fuchsia-500",
+      },
+    ],
+    image: uamtec,
+    // source_code_link: "
+    url: "https://uamtec.com",
+  },
   {
     name: "Gallery Studio Pro",
     description:
