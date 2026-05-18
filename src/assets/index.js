@@ -36,6 +36,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import poulimainfotech from "./company/poulimainfotech.png";
+import bestpeers from "./company/bestpeers.jpg";
 import cornerstonesolutions from "./company/cornerstonesolutions.jpeg";
 
 import carrent from "./carrent.png";
@@ -87,6 +88,7 @@ export {
   starbucks,
   tesla,
   poulimainfotech,
+  bestpeers,
   cornerstonesolutions,
   carrent,
   jobit,

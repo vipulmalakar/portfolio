@@ -22,7 +22,7 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Vipul</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop <TypeAnimationWords />
+            I build <TypeAnimationWords />
           </p>
         </div>
       </div>
@@ -56,9 +56,9 @@ const TypeAnimationWords = () => {
   return (
     <TypeAnimation
       sequence={[
-        'Web applications', 1000,
-        'Mobile applications', 1000,
-        'Desktop applications', 1000,
+        'Scalable Backend systems', 1200,
+        'Event-driven Architectures', 1200,
+        'full-stack Applications', 1200,
         ]}
       wrapper="span"
       cursor={true}

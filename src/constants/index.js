@@ -24,6 +24,7 @@ import {
   postgres,
   // materialui,
   poulimainfotech,
+  bestpeers,
   cornerstonesolutions,
   gallerydtudiopro,
   uamtec,
@@ -151,42 +152,46 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full stack Developer Intern",
+    title: "Software Developer",
     company_name: "Poulima Infotech",
     icon: poulimainfotech,
-    iconBg: "#E6DEDD", // #383E56
-    date: "Oct 2022 - March 2023",
+    iconBg: "#E6DEDD",
+    date: "Oct 2022 - Feb 2024",
     points: [
-      "Spearheaded the development of a job searching website, elevating user access to career opportunities and contributing to an enhanced job-seeking experience.",
-      "Implemented astrology APIs in an astrology website, enriching functionality and user engagement.",
-      "Collaborated with a dynamic team to design intuitive interfaces, showcasing a commitment to user-centric application design.",
-      "Acquired hands-on experience in web development, troubleshooting, and issue resolution, ensuring seamless website functionality.",
+      "Designed, developed, and maintained web and mobile applications using Node.js, React, and React Native for multiple client projects.",
+      "Built reusable backend modules and REST APIs to support authentication, payments, and data-driven workflows.",
+      "Integrated Razorpay, Stripe, and Instamojo payment gateways, ensuring secure and reliable transaction handling.",
+      "Deployed and managed applications on AWS (EC2, S3), handling builds, environment setup, and production releases.",
+      "Worked extensively with third-party APIs, form validation, and robust error handling to improve reliability and user experience.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Poulima Infotech",
-    icon: poulimainfotech,
-    iconBg: "#E6DEDD", // #383E56
-    date: "March 2023 - Feb 2024",
-    points: [
-      "Continuously developed and maintained diverse web applications and mobile apps, showcasing versatility and adaptability.",
-      "Successfully integrated payment gateways, including Instamojo and Stripe, ensuring secure and smooth transaction processes.",
-      "Leveraged advanced technologies like AWS S3 bucket and EC2 instances for efficient and secure hosting, optimizing application performance.",
-      "Demonstrated proactive problem-solving skills, ensuring uninterrupted functionality and a positive user experience.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
+    title: "Software Consultant",
     company_name: "Cornerstone Solutions",
     icon: cornerstonesolutions,
-    iconBg: "#FFF", // #383E56
-    date: "Feb 2024 - Present",
+    iconBg: "#FFF",
+    date: "Feb 2024 - May 2025",
     points: [
-      "Resolved issues and implemented features for UAMTEC and VitalX, enhancing overall application functionality.",
-      "Optimized queries and enhanced performance for applications, resulting in faster load times and improved user experience.",
-      "Developed advanced functionalities like image navigation and EXE setup creation, adding significant value to the projects.",
-      "Worked with a diverse tech stack including React, Nest.js, Node.js, PostgreSQL, Electron, and Svelte, demonstrating versatility and technical proficiency.",
+      "Delivered features and resolved complex issues across backend and frontend layers for UAMTEC and VitalX.",
+      "Optimized backend logic and database queries, improving API response times by 20–25% for critical workflows.",
+      "Implemented frontend optimizations and improved data-fetching strategies to enhance performance and usability.",
+      "Built advanced functionality such as seamless image navigation and custom EXE setup creation to streamline deployments.",
+      "Collaborated with QA and product teams to ensure production stability and timely feature delivery.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Bestpeers Infosystem Pvt. Ltd.",
+    icon: bestpeers,
+    iconBg: "#E6DEDD",
+    date: "June 2025 - Present",
+    points: [
+      "Designed and developed scalable backend services for ReturnPrime (GoKwik product) using Node.js and MongoDB, supporting 2000+ Shopify stores with high availability.",
+      "Architected Kafka-based producer–consumer services for product and collection synchronization, decoupling Shopify webhook traffic and reducing core backend load by ~15–20%.",
+      "Built AWB producer–consumer services using Kafka and Redis, exposing webhook endpoints to logistics partners for real-time shipment and order status updates.",
+      "Implemented asynchronous processing with retries and idempotent consumers, reducing data inconsistencies and sync failures by ~20%.",
+      "Integrated multiple logistics partners and automated backend flows, improving merchant onboarding efficiency and logistics coverage.",
+      "Handled on-call production incidents, debugging live PROD issues and coordinating with CSMs and merchants to ensure SLA adherence.",
     ],
   },
 ];
