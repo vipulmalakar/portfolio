@@ -76,7 +76,7 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
         <p className='text-secondary mt-2'>
-          Phone: +91 91719-80366 • Email: vipulmalakar11@gmail.com • <a className='text-white underline' href='https://www.linkedin.com/in/vipulmalakar' target='_blank' rel='noreferrer'>LinkedIn</a>
+          Email: vipulmalakar11@gmail.com • <a className='text-white underline' href='https://www.linkedin.com/in/vipulmalakar' target='_blank' rel='noreferrer'>LinkedIn</a>
         </p>
 
         <form
